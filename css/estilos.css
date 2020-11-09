@@ -1,0 +1,113 @@
+*{
+	/*background-color: black; */
+	/*color:white;*/
+	/*display: flex;*/
+	/*align-content: center;*/
+	/*align-items: center;*/
+}
+body{
+	background-color: black;
+}
+header{
+	width: 100%;
+	display: flex;
+	padding: 5px;
+	justify-content: center;
+	color: white;
+	margin: 2% 0%;
+	background-color: #7C0D0D;
+}
+.titulo{
+	display: flex;
+	width: 70%;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	font-size: 30px;
+}
+header:hover{
+	color: #41FFFF;
+
+}
+.container{
+	background-color: #252525;
+	margin: 1% 2%;
+}
+.cadena{
+	background: green;
+	color: blue;
+}
+#desp{
+	background-color: white;
+	color: black;
+}
+.card{
+	font-size: 20px;
+	color: white;
+	/*background-color: yellow;*/
+	display: flex;
+	justify-content: center;
+}
+#bot{
+	display: flex;
+	width: 40%;
+}
+.txt{
+	/*background-color: red;*/
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+}
+.xd{
+	background-color: red;
+	min-height: 200px;
+	color: white;
+}
+#bot{
+	display: flex;
+	justify-content: center;
+}
+#bot:hover{
+	background-color: green;
+	color: white;
+}
+#cadena{
+	background-color: #AA920B;
+	display: flex;
+	width: 100%;
+	min-height: 120px;
+	color: white;
+	resize: none;
+	opacity: .5;
+}
+#cadena:hover{
+	opacity: .8;
+}
+footer{
+	background-color: black;
+  	position: absolute;
+  	bottom: 0;
+  	width: 100%;
+  	height: 40px;
+  	color: white;
+  	justify-content: center;
+  	display: flex;
+  	font-size: 18px;
+  	color: white;
+}
+.creador{
+	display: flex;
+	width: 50%;
+	/*background-color: red;*/
+	text-align: center;
+	justify-content: center;
+}
+.est{
+	display: flex;
+	width: 50%;
+	/*background-color: blue;*/
+	justify-content: center;
+}
+footer:hover{
+	color: gray;
+}
